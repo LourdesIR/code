@@ -95,7 +95,7 @@ Y se procedio a mapear los iconos de play, conociendo asi tambien su indice. Y d
         })
     });
 
-```
+´´´
 
 Se procedio a realizar el boton cerrar que solo es visible dentro del modal.
 
@@ -122,8 +122,8 @@ Se utilizo la misma tabla que en la solucion R2
 
 Para ello los datos obtenidos fueron incluidos en la tabla mediante Append creando anteriormente un elemento tr o fila para su posterior insercion de datos en ella.
 
-```
 
+```
 fetch('http://api.mediastack.com/v1/news?access_key=b64d513d53cf37a292b62275ff101fcc')
 .then(res=> res.json())
 .then(json =>
@@ -145,8 +145,4 @@ const films = json.data;
 
 })
 })
-
-```
-
-
-```
+´´´
