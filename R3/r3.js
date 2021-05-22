@@ -1,11 +1,11 @@
 window.addEventListener('load',()=>{
 
     //Random images
-    
+
     function getRandomInt(min, max) {
         return Math.round(Math.random() * (max - min)) + min;
       }
-   
+
       const image = document.querySelectorAll('.picture');
       image.forEach((el) => {
         let num1 = getRandomInt(1000,1300);
@@ -32,27 +32,27 @@ window.addEventListener('load',()=>{
 
     play.forEach((element,index) => {
         element.addEventListener('click', function(){
-          
+
             try {
             //see modal
             let videoName = video[`play${index}`];
             videoFram.setAttribute('src',`${videoName}`);
             modal.className = "modalVisible";
-                
+
             } catch (e) {
                 // mensagge error
                 console.warn('Problems in the modal script', e);
             }
-            
+
         })
     });
 
     //close modal
      const btnCerrar = document.getElementById('close')
 
-     btnCerrar.addEventListener('click', function(){ 
+     btnCerrar.addEventListener('click', function(){
          modal.className = "modalNone";//class change
          videoFram.setAttribute('src',' '); //empty video
      })
-         
+
 })
