@@ -31,7 +31,14 @@ nav ul li {
 }
 
 .text {
-  margin-top: 12px;
+  padding: 0 0.5rem;
+}
+
+.text a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-weight: 700;
 }
 
 svg {
