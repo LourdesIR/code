@@ -94,6 +94,7 @@ Y se procedio a mapear los iconos de play, conociendo asi tambien su indice. Y d
 
         })
     });
+
 ```
 
 Se procedio a realizar el boton cerrar que solo es visible dentro del modal.
@@ -105,6 +106,7 @@ Se procedio a realizar el boton cerrar que solo es visible dentro del modal.
          modal.className = "modalNone";//class change
          videoFram.setAttribute('src',' '); //empty video
      })
+
 ´´´
 
 ## Consigna R4
@@ -145,5 +147,6 @@ const films = json.data;
 })
 
 ```
+
 
 ```
