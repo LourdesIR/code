@@ -26,6 +26,8 @@ Se utilizo display `Table-row` y se elimino `data-columns`
 
 ### "Crear una web R3.html, y maquetar el diseño suministrado. Al dar click en el play reproducir un video en un modal. Las fotografias y video, a consideracion del candidato. Se evaluara Metatagas, Favicon, Codificacion (html, css yjavascript), y responsive."
 
+https://github.com/LourdesIR/code/blob/main/R2/r2.html
+
 **Construccion del Maqueteado**
 
 Se construyo una grilla para generar la version movil y descktop.
@@ -97,7 +99,7 @@ Y se procedio a mapear los iconos de play, conociendo asi tambien su indice. Y d
 
 ´´´
 
-Se procedio a realizar el boton cerrar que solo es visible dentro del modal.
+**Se procedio a realizar el boton cerrar que solo es visible dentro del modal.**
 
 ```
      const btnCerrar = document.getElementById('close')
@@ -112,6 +114,8 @@ Se procedio a realizar el boton cerrar que solo es visible dentro del modal.
 ## Consigna R4
 
 ### "Crear una pagina R4.html, y consumir un servicio gratuito de datos (Rest Api - GET), para listar informacion, en unatabla con diseño similiar a la solicitada en R2.Referencia REST API: https://weatherstack.com/productReferencia REST API: https://mediastack.com/product"
+
+https://github.com/LourdesIR/code/blob/main/R2/r2.html
 
 __Construccion de la Tabla mediante Api__
 
